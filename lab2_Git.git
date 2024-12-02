@@ -1,0 +1,52 @@
+ssh-keygen -t rsa -C "aeramzy9@gmail.com"
+cd /home/mobaxterm/.ssh/id_rsa
+cd /home/mobaxterm/.ssh/
+ls
+cat id_rsa
+cat id_rsa.pub
+git remote add origin git@github.com:ahmedramzygi/Day2_Bootcamp.git
+cd ../../
+ls
+cd F:
+cd Work/Div\ Academy/Day2/
+ls
+cd Session2_
+cd Session2_Git/
+ls
+cd lab_Git/
+git init
+git remote add origin
+git remote add origin git@github.com:ahmedramzygi/Day2_Bootcamp.git
+ls
+git status
+touch README.Mmd
+git status
+git add .
+git status
+git commit -m "First Commit"
+git config --global user.email "aeramzy9@gmail.com"
+git commit -m "First Commit"
+git remote
+git remote -v
+git push -u origin master
+echo "Hello World" < README.Mmd
+ls
+cat README.Mmd
+echo "Hello World" > README.Mmd
+cat README.Mmd
+mv README.Mmd README.md
+git status
+git add README.md
+git status
+git restore --staged README.md
+git status
+git add README.md
+git commit -m "Changes to readme"
+git push
+ls
+git branch
+git branch -r
+git branch stage
+git checkout dev
+
+ git push --set-upstream origin dev
